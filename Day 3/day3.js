@@ -56,3 +56,4 @@ function akademia(nama,NIK,email){
     this.email=email;
     this.NIK=NIK;
 }
+//tambah
