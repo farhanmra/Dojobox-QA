@@ -31,20 +31,28 @@
 // cetak('200.000','5000')
 
 //object
-var akademia ={
-    //property
-    nama    :'Farhan',
-    NIK     :'13114958',
-    email   :'farhan@gmail.com',
+//literal decalaration
+// var akademia ={
+//     //property
+//     nama    :'Farhan',
+//     NIK     :'13114958',
+//     email   :'farhan@gmail.com',
 
-    //method
-    getName:function(){
-        console.log('Nama Saya adalah '+ this.nama+'<br>')
-    },
-    getEmail:function(){
-        console.log('Email saya adalah :'+ this.email+'<br>')
-    },
-    getNIK:function(){
-        console.log('NIK saya adalah '+this.NIK+'<br>')
-    }
+//     //method
+//     getName:function(){
+//         console.log('Nama Saya adalah '+ this.nama+'<br>')
+//     },
+//     getEmail:function(){
+//         console.log('Email saya adalah :'+ this.email+'<br>')
+//     },
+//     getNIK:function(){
+//         console.log('NIK saya adalah '+this.NIK+'<br>')
+//     }
+// }
+
+//constructor
+function akademia(nama,NIK,email){
+    this.nama=nama;
+    this.email=email;
+    this.NIK=NIK;
 }
